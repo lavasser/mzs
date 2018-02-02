@@ -7,3 +7,7 @@
  */
 phpinfo();
 echo"hello";
+function test()
+{
+    echo "hi";
+}
