@@ -5,3 +5,5 @@
  * Date: 02.02.2018
  * Time: 10:28
  */
+phpinfo();
+echo"hello";
