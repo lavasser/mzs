@@ -5,3 +5,8 @@
  * Date: 02.02.2018
  * Time: 14:41
  */
+
+Class Test
+{
+    public $nnn;
+}
