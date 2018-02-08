@@ -6,7 +6,7 @@
  * Date: 08.02.2018
  * Time: 15:51
  */
-class view
+class View
 {
     //public $template_view; // здесь можно указать общий вид по умолчанию.
 

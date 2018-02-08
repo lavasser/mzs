@@ -6,7 +6,7 @@
  * Date: 08.02.2018
  * Time: 15:54
  */
-class controller
+class Controller
 {
     public $model;
     public $view;

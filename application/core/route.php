@@ -6,7 +6,7 @@
  * Date: 08.02.2018
  * Time: 15:55
  */
-class route
+class Route
 {
     static function start()
     {
