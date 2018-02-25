@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Министерство здравоохранения Пензенской области</title>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/contacts.css">
 </head>
 <body>
 
@@ -36,7 +37,12 @@
     <div class="container">
         <div class="bg_white">
             <div class="main">
-                <h1>Заголовок</h1>
+                <h1>Телефонный справочник сотрудников Министерства</h1>
+                <form action="#" method="post" name="form" onsubmit="return false">
+                    <input name="search" type="text" id="search"
+                           placeholder="Начните ввод любого слова из ФИО, отдела, № кабинета, № телефона и т.д."
+                           size="80" onkeydown="if(event.keyCode==13){this.value='';}">
+                </form>
             </div>
         </div>
     </div>
@@ -51,10 +57,10 @@
             <div class="footer_copy">
                 <div class = "footer_copy_text">&copy; 2018 "Министерство здравоохранения Пензенской области". Все права защищены</div>
                 <ul class = "social_menu">
-                    <a href="#"><li><img src = "css/facebook_icon.png" alt = "Facebook"></li></a>
-                    <a href="#"><li><img src = "css/twitter_icon.png" alt = "Twitter"></li></a>
-                    <a href="#"><li><img src = "css/youtube_icon.png" alt = "Youtube"></li></a>
-                    <a href="#"><li><img src = "css/insta_icon.png" alt = "Facebook"></li></a>
+                    <li><a href="#"><img src = "css/facebook_icon.png" alt = "Facebook"></a></li>
+                    <li><a href="#"><img src = "css/twitter_icon.png" alt = "Twitter"></a></li>
+                    <li><a href="#"><img src = "css/youtube_icon.png" alt = "Youtube"></a></li>
+                    <li><a href="#"><img src = "css/insta_icon.png" alt = "Facebook"></a></li>
                 </ul>
             </div>
         </div>
