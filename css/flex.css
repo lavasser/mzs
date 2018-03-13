@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.in {
+    width: 150px;
+    height: 100px;
+    background: black;
+}
