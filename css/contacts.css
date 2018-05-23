@@ -11,3 +11,44 @@
     color: #8d8d8d;
     font-size: 16px;
 }
+.department {
+    margin: 10px 50px 0 50px;
+    text-indent: 10px;
+    border: 1px solid #e2e2e2;
+}
+.department-name {
+    background: #dad9d9;
+    line-height: 40px;
+    font-weight: bold;
+}
+.department-sector-name {
+    background: #ededed;
+    line-height: 40px;
+    font-weight: bold;
+}
+.person {
+    display: flex;
+    padding-top: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.person a img {
+    max-width: 50px;
+}
+.fio {
+    width: 200px;
+    padding-left: 10px;
+    text-indent: 0;
+}
+.position {
+    width: 200px;
+    text-indent: 0;
+}
+.phone {
+    width: 250px;
+}
+.department-sector {
+    padding-left: 60px;
+}
+.department-sector {
+
+}

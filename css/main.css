@@ -105,6 +105,12 @@ h1 {
     margin: 0 0 15px 0;
     text-align: left;
 }
+.topic-line {
+    height: 8px;
+    position: relative;
+    background: #347eca;
+    margin-bottom: 15px;
+}
 .content {
     margin-top: 15px;
     padding: 30px;
@@ -116,7 +122,6 @@ h1 {
     margin-top: 15px;
     color: #fff;
     background-color: #4b4b4b;
-    position: absolute;
     bottom: 0;
     left: 0;
 }
