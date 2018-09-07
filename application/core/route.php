@@ -60,7 +60,7 @@ class Route
         $controller = new $controller_name;
         $action = $action_name;
 
-        if (method_exists($controller, $action) ) {
+        if (method_exists($controller, $action)) {
             // вызываем действие контроллера
             $controller->$action();
         }
