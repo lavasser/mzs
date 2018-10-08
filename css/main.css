@@ -114,6 +114,7 @@ h1 {
 .content {
     margin-top: 15px;
     padding: 30px;
+    min-height: 100vh;
 }
 .footer {
     height: 100px;
@@ -132,6 +133,7 @@ h1 {
     font-weight: 400;
     line-height: 20px;
     max-width: 1300px;
+    padding: 0 30px;
     margin: 0 auto;
 }
 .social_menu {

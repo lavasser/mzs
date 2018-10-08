@@ -17,19 +17,25 @@ class Route
         $routes = explode('/', $_SERVER['REQUEST_URI']);
 
         // получаем имя контроллера
-        if (!empty($routes[1]) ) {
+        if (!empty($routes[1])) {
             $controller_name = $routes[1];
         }
 
         // получаем имя экшена
-        if (!empty($routes[2]) ) {
+        if (!empty($routes[2])) {
             $action_name = $routes[2];
         }
 
         // добавляем префиксы
-        $model_name = 'Model_'.$controller_name;
-        $controller_name = 'Controller_'.$controller_name;
-        $action_name = 'action_'.$action_name;
+        $model_name = 'Model_' . $controller_name;
+        $controller_name = 'Controller_' . $controller_name;
+        $action_name = 'action_' . $action_name;
+
+        echo 'Модель: '.$model_name;
+        echo '<br>';
+        echo 'Контроллер: '.$controller_name;
+        echo '<br>';
+        echo 'Экшен: '.$action_name;
 
         // подцепляем файл с классом модели (файла модели может и не быть)
 
@@ -49,13 +55,13 @@ class Route
             include "application/controllers/".$controller_file;
         }
         else {
-            /*
-            правильно было бы кинуть здесь исключение,
-            но для упрощения сразу сделаем редирект на страницу 404
-            */
-            Route::ErrorPage404();
-        }
+            // правильно было бы кинуть здесь исключение,
+            // но для упрощения сразу сделаем редирект на страницу 404
 
+            //Route::ErrorPage404();
+        }
+    }}
+/**
         // создаем контроллер
         $controller = new $controller_name;
         $action = $action_name;
@@ -78,4 +84,4 @@ class Route
         header('Location:'.$host.'404');
     }
 
-}
+}*/

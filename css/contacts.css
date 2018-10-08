@@ -25,6 +25,7 @@
     background: #ededed;
     line-height: 40px;
     font-weight: bold;
+    font-size: 14px;
 }
 .person {
     display: flex;
@@ -33,6 +34,7 @@
 }
 .person a img {
     max-width: 50px;
+    border-radius: 10px;
 }
 .fio {
     width: 200px;
@@ -48,7 +50,4 @@
 }
 .department-sector {
     padding-left: 60px;
-}
-.department-sector {
-
 }
